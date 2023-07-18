@@ -1,0 +1,2065 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="max-image-preview:large">
+<meta http-equiv="Content-Security-Policy" content="block-all-mixed-content" />
+<link rel="preload" href="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-compressed.png" as="image">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito+Sans&display=swap" />
+
+<style id="" media="print" onload="this.media='all'">/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w0aXpsog.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w9aXpsog.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w2aXpsog.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w3aXpsog.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aXo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilXvlUlM_Y.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilXt1UlM_Y.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilXvFUlM_Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilXvVUlM_Y.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilXs1Ul.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+<noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito+Sans&display=swap" />
+    </noscript>
+<style>
+  #sticky-bottom,
+  #sticky-top {
+      background: rgba(255, 255, 255, 0.9);
+      overflow: hidden;
+      text-align: center;
+      transition: min-height 0.5s;
+      width: 100%;
+      z-index: 99999;
+  }
+  #sticky-top {
+      display: block;
+      height: 50px;
+      position: sticky;
+      top: 0;
+  }
+  #sticky-bottom {
+      bottom: 0;
+      display: block;
+      height: 50px;
+      position: fixed;
+  }
+  #skin,
+  #proper-ad-attackofthefanboy_billboard iframe[width="1920"][height="1080"] {
+      position: fixed !important;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      min-width: 1920px !important;
+      text-align: center;
+  }
+  #top-heroboard {
+    display: none;
+    margin-top: 1.5rem;    
+    margin-bottom: 0.5rem;
+    min-height: 270px;
+    position: relative;
+  }
+  .proper-ad-unit:not(#skin):not(#top-heroboard):not(.sticky-units) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      min-height: 320px;
+  }
+  div.primis-player {
+      display: flex;
+      margin: 1rem auto;
+      padding-top: 74.05405405%;
+      position: relative;
+  }
+  div.primis-player.home {
+      padding-top: 70.69314089%;
+  }
+  div.primis-player > div {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .entry-content .proper-ad-unit {
+      display: block !important;
+      min-height: 320px !important;
+      text-align: center;
+  }
+  .entry-content .proper-ad-unit:before {
+      border-bottom: 1px solid #dfdfdf;
+      color: #949494;
+      content: "Content Continues After Ad";
+      font-family: 'Lato', sans-serif;
+      font-size: 0.65rem;
+      padding: 0 2rem 0.25rem;
+      text-transform: uppercase;
+  }
+  .entry-content .proper-ad-unit > div:first-child {
+      margin-top: 0.5rem !important;
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 55px;
+  }
+  @media (min-width: 37.5em) {
+      #top-heroboard {
+          display: flex !important;
+      }
+      #sticky-bottom,
+      #sticky-top {
+          display: none;
+      }
+      .proper-ad-unit:not(#skin):not(.sticky-units) {
+          min-height: 290px;
+      }
+      .entry-content > .proper-ad-unit {
+          min-height: 320px !important;
+      }
+      .entry-content .proper-ad-unit > div:first-child {
+          top: 75px;
+      }
+      div.primis-player {
+          padding-top: 70.6410256%;
+          width: 100%;
+      }
+      div.primis-player.home {
+          width: 100%;
+      }
+  }
+  @media (max-width: 1920px) {
+      #skin #attackofthefanboy_skin {
+          height: 1080px;
+          max-width: 1920px !important;
+          width: 1920px;
+      }
+      #skin #proper-ad-attackofthefanboy_skin,
+      #skin #attackofthefanboy_skin,
+      #proper-ad-attackofthefanboy_billboard iframe[width="1920"][height="1080"] {
+          margin-left: calc((100% - 1920px)/2) !important;
+      }
+  }
+</style>
+
+<style>
+        .category-tag a {
+            color: #ff4343;
+        }
+        @media(min-width: 1024px){nav#top-navigation{position: fixed}}
+    </style>
+<title>Attack of the Fanboy - Video Game Guides, Reviews, News &amp; More</title>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+
+
+<meta name="description" content="Video Game Guides, Reviews, News &amp; More" />
+<link rel="canonical" href="https://attackofthefanboy.com/" />
+<link rel="next" href="https://attackofthefanboy.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Attack of the Fanboy" />
+<meta property="og:description" content="Video Game Guides, Reviews, News &amp; More" />
+<meta property="og:url" content="https://attackofthefanboy.com/" />
+<meta property="og:site_name" content="Attack of the Fanboy" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@FanboyAttack" />
+
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<style id='aotf-aotf-new-and-upcoming-releases-style-inline-css'>
+.wp-block-aotf-new-and-upcoming-releases-aotf-new-and-upcoming-releases{background-color:#21759b;color:#fff;padding:2px}
+
+</style>
+<style id='aotf-new-and-upcoming-releases-item-style-inline-css'>
+.wp-block-aotf-new-and-upcoming-releases-item .guide-background{position:relative}.wp-block-aotf-new-and-upcoming-releases-item .guide-background .wp-block-image{height:100%;margin:0;position:absolute;top:0;width:100%;z-index:0}.wp-block-aotf-new-and-upcoming-releases-item .guide-background .wp-block-image img{-o-object-fit:cover;object-fit:cover}.wp-block-aotf-new-and-upcoming-releases-item .guide-item{position:relative;z-index:1}
+
+</style>
+<link rel='stylesheet' id='all-css-4' href='https://attackofthefanboy.com/_static/??-eJyFjt0KgzAMRl9oNahM3MXYo4zaBsmW/mBaxbdfEBy7203gJOfjC2zZuBQLxgKhmsx1pijwwpKte5u2a/oTnitGnxawtaRgSyH31VbymPKCIjBVYg8TJ12jp6KBAwQOSSdujRO5gDZTdFw9ap9AUNsiYzhe+YHMdsfFMM7W7U2g+D+ut18+Q49wb4fxNnTXse8+VqddBA==' type='text/css' media='all' />
+<style id='elasticpress-facet-style-inline-css'>
+.widget_ep-facet input[type=search],.wp-block-elasticpress-facet input[type=search]{margin-bottom:1rem}.widget_ep-facet .searchable .inner,.wp-block-elasticpress-facet .searchable .inner{max-height:20em;overflow:scroll}.widget_ep-facet .term.hide,.wp-block-elasticpress-facet .term.hide{display:none}.widget_ep-facet .empty-term,.wp-block-elasticpress-facet .empty-term{opacity:.5;position:relative}.widget_ep-facet .empty-term:after,.wp-block-elasticpress-facet .empty-term:after{bottom:0;content:" ";display:block;left:0;position:absolute;right:0;top:0;width:100%;z-index:2}.widget_ep-facet .level-1,.wp-block-elasticpress-facet .level-1{padding-left:20px}.widget_ep-facet .level-2,.wp-block-elasticpress-facet .level-2{padding-left:40px}.widget_ep-facet .level-3,.wp-block-elasticpress-facet .level-3{padding-left:60px}.widget_ep-facet .level-4,.wp-block-elasticpress-facet .level-4{padding-left:5pc}.widget_ep-facet .level-5,.wp-block-elasticpress-facet .level-5{padding-left:75pt}.widget_ep-facet input[disabled],.wp-block-elasticpress-facet input[disabled]{cursor:pointer;opacity:1}.widget_ep-facet .term a,.wp-block-elasticpress-facet .term a{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative}.widget_ep-facet .term a:hover .ep-checkbox,.wp-block-elasticpress-facet .term a:hover .ep-checkbox{background-color:#ccc}.ep-checkbox{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-negative:0;-webkit-box-pack:center;-ms-flex-pack:center;align-items:center;background-color:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;flex-shrink:0;height:1em;justify-content:center;margin-right:.25em;width:1em}.ep-checkbox:after{border:solid #fff;border-width:0 .125em .125em 0;content:"";display:none;height:.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:.25em}.ep-checkbox.checked{background-color:#5e5e5e}.ep-checkbox.checked:after{display:block}
+
+</style>
+<link rel='stylesheet' id='all-css-6' href='https://attackofthefanboy.com/_static/??/wp-content/mu-plugins/search/elasticpress-next/dist/css/related-posts-block-styles.min.css,/wp-includes/css/classic-themes.min.css?m=1689625831' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='hurrytimer-css' href='https://attackofthefanboy.com/wp-content/uploads/hurrytimer/css/a859e9d0a2424277.css?ver=6.1.3' media='all' />
+<link rel='stylesheet' id='all-css-10' href='https://attackofthefanboy.com/wp-content/mu-plugins/jetpack-12.3/css/jetpack.css?m=1689267752g' type='text/css' media='all' />
+<script type="text/javascript" src="https://attackofthefanboy.com/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokoopZebmaeXVayjj0+Rbm5melFiSSpUsX2uraGZhaWZkamFsVEWAK/MIio="></script>
+<script type="text/javascript">
+          (function() {
+            /** CONFIGURATION START **/
+            var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+            _sf_async_config.uid = 66987;
+            _sf_async_config.domain = 'attackofthefanboy.com'; //CHANGE THIS TO THE ROOT DOMAIN
+            _sf_async_config.flickerControl = false;
+            _sf_async_config.useCanonical = true;
+            _sf_async_config.useCanonicalDomain = true;
+                        /** CONFIGURATION END **/
+            function loadChartbeat() {
+                var e = document.createElement('script');
+                var n = document.getElementsByTagName('script')[0];
+                e.type = 'text/javascript';
+                e.async = true;
+                e.src = '//static.chartbeat.com/js/chartbeat.js';
+                n.parentNode.insertBefore(e, n);
+            }
+            loadChartbeat();
+          })();
+        </script>
+<script async src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+<script type="text/javascript" async>
+          ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[]; p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments) };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1; n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","https://attackofthefanboy.com/plow.lite.js","snowplow"));
+        </script>
+<script>
+          window.snowplow('newTracker', 'sp1', 'https://spc.attackofthefanboy.com/', { 
+            appId: 'attackofthefanboy-web',
+          });
+          snowplow('enableActivityTracking', { 
+            minimumVisitLength: 30,
+            heartbeatDelay: 10,
+          });
+          window.snowplow(
+            'trackPageView',
+                      );
+          window.top.addEventListener('primisPlayerInit', function (e) {
+            if (e.detail.playerApiId == 'primisPlayer') {
+              var player = e.detail;
+              player.addEventListener('adStarted', function (val) {
+                window.snowplow('trackSelfDescribingEvent', {
+                  event: {
+                    schema: 'iglu:group.gamurs/primis_ad_impression/jsonschema/1-0-0',
+                    data: {
+                      impressionValue: val.impValue,
+                      servingFee: val.servingFee,
+                    }
+                  },
+                                  });
+              });
+            }
+          });
+        </script>
+<script>
+          (function() {
+            var processCWV = function(obj) {
+              window.snowplow('trackSelfDescribingEvent', {
+                event: {
+                  schema: 'iglu:group.gamurs/core_web_vitals/jsonschema/1-0-0',
+                  data: {
+                    name: obj.name,
+                    value: obj.value,
+                    delta: obj.delta,
+                  },
+                },
+                              });
+            }
+            var script = document.createElement('script');
+            script.src = 'https://unpkg.com/web-vitals/dist/web-vitals.iife.js';
+            script.onload = function() {
+              webVitals.getCLS(processCWV);
+              webVitals.getFID(processCWV);
+              webVitals.getLCP(processCWV);
+            }
+            document.head.appendChild(script);
+          }())
+        </script>
+<script type="text/javascript">
+        function nxsPostToFav(obj){ obj.preventDefault;
+            var k = obj.target.split("-"); var nt = k[0]; var ii = k[1];  var pid = k[2];
+            var data = {  action:'nxs_snap_aj', nxsact: 'manPost', nt:nt, id: pid, nid: ii, et_load_builder_modules:1, _wpnonce: '7223f12d53'};
+            jQuery('#nxsFavNoticeCnt').html('<p> Posting... </p>'); jQuery('#nxsFavNotice').modal({ fadeDuration: 50 });
+            jQuery.post('https://attackofthefanboy.com/wp-admin/admin-ajax.php', data, function(response) { if (response=='') response = 'Message Posted';
+                jQuery('#nxsFavNoticeCnt').html('<p> ' + response + '</p>' +'<input type="button"  onclick="jQuery.modal.close();" class="bClose" value="Close" />');
+            });
+        }
+    </script> <style>img#wpstats{display:none}</style>
+
+
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {"pageTitle":"Attack of the Fanboy - Video Game Guides, Reviews, News &amp; More","pagePostType":"frontpage","siteUrl":"https:\/\/attackofthefanboy.com"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NWJQJXJ');
+</script>
+
+ 
+
+<link rel="preconnect" href="https://a.pub.network/" crossorigin />
+<link rel="preconnect" href="https://b.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.pub.network/" crossorigin />
+<link rel="preconnect" href="https://d.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://s.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://secure.quantserve.com/" crossorigin />
+<link rel="preconnect" href="https://rules.quantcount.com/" crossorigin />
+<link rel="preconnect" href="https://pixel.quantserve.com/" crossorigin />
+<link rel="preconnect" href="https://cmp.quantcast.com/" crossorigin />
+<link rel="preconnect" href="https://btloader.com/" crossorigin />
+<link rel="preconnect" href="https://api.btloader.com/" crossorigin />
+<link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net" crossorigin />
+
+
+
+<link rel="stylesheet" href="https://a.pub.network/attackofthefanboy-com/cls.css">
+<script data-cfasync="false" type="text/javascript">
+					var freestar = freestar || {};
+					freestar.queue = freestar.queue || [];
+					freestar.config = freestar.config || {};
+					freestar.config.enabled_slots = [];
+
+											freestar.queue.push(function() {
+							googletag.pubads().setTargeting('Section', 'homepage');
+						});
+					
+										
+					freestar.initCallback = function() {
+						(freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false: freestar.newAdSlots(
+							freestar.config.enabled_slots)
+					}
+					</script>
+<script src="https://a.pub.network/attackofthefanboy-com/pubfig.min.js" data-cfasync="false" async></script>
+<link rel="stylesheet" type="text/css" href="https://attackofthefanboy.com/wp-content/themes/Fanboy/core-home.css" />
+<link rel="shortcut icon" href="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf.ico">
+<link rel="icon" type="image/png" href="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-logo-icon-48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-logo-icon-96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-logo-icon-144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-logo-icon-192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-logo-icon-240.png" sizes="240x240">
+<link rel="apple-touch-icon" href="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-logo-icon-240.png">
+<meta name="msvalidate.01" content="6A4801C940C2C2EFC01C8A2AE1A8D210" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://attackofthefanboy.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="https://attackofthefanboy.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://attackofthefanboy.com/feed/atom/" />
+
+<script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "@id": "https://attackofthefanboy.com/#organization",
+            "name": "Attack of the Fanboy",
+            "url": "https://attackofthefanboy.com",
+            "foundingDate": "2010",
+            "sameAs": [
+                "https://www.youtube.com/FanboyAttack",
+                "https://www.facebook.com/AttackoftheFanboy",
+                "https://twitter.com/FanboyAttack"
+            ],
+
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-logo-ts.png",
+                "caption": "Attack of the Fanboy Logo"
+            }
+        }
+    </script>
+<style>
+        @media (min-width: 1600px) {
+            .marquee {
+                height: 60vh;
+            }
+
+            .marquee-header {
+                padding: 24px 20px;
+            }
+
+        }
+
+        @media (min-width:1280px) {
+
+            .marquee-header {
+                padding: 20px 16px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .marquee {
+                height: 40vh;
+                max-height: 640px;
+            }
+
+            .marquee-header {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .marquee-date {
+                display: block;
+                top: 16px;
+            }
+
+            .marquee-date,
+            .marquee-logo {
+                color: #fff;
+                position: absolute;
+                right: 24px;
+                z-index: 5;
+            }
+
+            .marquee-gradient {
+                background: transparent url(https://attackofthefanboy.com/wp-content/uploads/2020/02/image-gradient.png) no-repeat;
+                background-position: 0 0;
+                background-size: cover;
+                bottom: 4px;
+                left: 4px;
+                mix-blend-mode: lighten;
+                pointer-events: none;
+                position: absolute;
+                right: 4px;
+                top: 4px;
+                z-index: 4;
+            }
+
+            .marquee--flexible3 article:first-child {
+                height: 100%;
+                width: 33.333333333%;
+            }
+
+            .marquee--flexible3 article {
+                float: left;
+                height: 100%;
+                width: 33.3333333%;
+            }
+
+            .marquee--flexible3 article:first-child .divert-title,
+            .marquee--flexible3 article:first-child h2 {
+                font-size: 56px;
+                line-height: 1.5;
+            }
+
+            .marquee-header {
+                padding: 16px 12px;
+            }
+
+            .marquee--flexible3 article:first-child .divert-title,
+            .marquee--flexible3 article:first-child h2 {
+                font-size: 22px;
+                line-height: 1.5;
+            }
+
+        }
+
+        @media (max-width: 1023px) and (min-width: 768px) {
+            .marquee {
+                min-height: 30vh;
+            }
+
+            .marquee-header {
+                padding: 16px 12px;
+            }
+
+
+            .marquee--flexible3 article {
+                min-height: 30vh;
+                position: relative;
+            }
+
+            .marquee--flexible3 article .divert-title,
+            .marquee--flexible3 article h2 {
+                font-size: 20px;
+            }
+
+            .marquee--flexible3 article:first-child .divert-title,
+            .marquee--flexible3 article:first-child h2 {
+                font-size: 20px;
+                line-height: 1;
+            }
+
+        }
+
+
+        @media (max-width: 767px) {
+            .marquee article {
+                min-height: 30vh;
+                position: relative;
+            }
+
+            .marquee h2 {
+                font-size: 20px;
+            }
+
+
+
+        }
+
+        .marquee {
+            margin: 0 auto;
+            padding: 4px;
+            position: relative;
+        }
+
+        .marquee-story {
+            float: left;
+            overflow: hidden;
+            padding: 4px;
+            position: relative;
+            width: 100%;
+            height: 300px;
+        }
+
+        .lazy.lazyLoaded {
+            opacity: 1;
+        }
+
+        .lazy {
+            transition: .4s ease;
+            opacity: 0;
+            will-change: opacity;
+        }
+
+        .marquee-image,
+        .marquee-trigger {
+            bottom: 4px;
+            left: 4px;
+            position: absolute;
+            top: 4px;
+            right: 4px;
+        }
+
+        .marquee-image {
+            background-color: #000;
+            background-size: cover;
+
+            z-index: 2;
+        }
+
+        .marquee .post-body a strong,
+        .marquee a,
+        .marquee h1,
+        .post-body a .marquee strong {
+            color: #fff;
+        }
+
+        .marquee-trigger {
+            transition: background-color .4s ease;
+            background: rgba(0, 0, 0, .25) url(https://attackofthefanboy.com/wp-content/uploads/2020/02/image-gradient.png) no-repeat;
+            background-size: 100% 100%;
+            display: block;
+            will-change: background-color;
+            z-index: 2;
+        }
+
+        .marquee-header {
+            bottom: 4px;
+            left: 4px;
+            padding: 25px 12px;
+            position: absolute;
+            right: 4px;
+            z-index: 3;
+        }
+
+        .marquee h5 a {
+            color: #00ffb1;
+            font-size: 0.70em;
+
+            font-family: 'Nunito Sans';
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        h5.marquee-section {
+            margin-bottom: 8px;
+
+        }
+
+        .marquee .divert-title,
+        .marquee h2 {
+            margin-bottom: .25em;
+        }
+
+        .marquee .post-body a strong,
+        .marquee a,
+        .marquee h1,
+        .post-body a .marquee strong {
+            color: #fff;
+        }
+
+        .marquee a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .category-tag a,
+        .marquee h5 a {
+            color: #ff4343;
+        }
+
+        .category-tag a {
+            font-size: 11px;
+            font-family: 'Nunito Sans'
+        }
+
+        .marquee-secondary-text {
+            font-size: 15px;
+            color: grey;
+            padding-bottom: 15px;
+        }
+
+        .marquee-button {
+            border-radius: 180px;
+            padding: 18px 36px;
+            font-size: 20px;
+            line-height: 1.2;
+            display: block;
+            margin: 18px auto 0;
+            background: #fd2525;
+            border: none;
+            width: auto;
+        }
+
+        .marquee-button:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        .sourced p {
+            display: none;
+        }
+
+        @media (max-width:767px) {
+            img.scorestars {
+                width: 40% !important
+            }
+
+            .marquee-button {
+                font-size: 16px;
+                border-radius: 90px;
+                padding: 18px 16px;
+                line-height: 0.8;
+                margin: 18px auto 0;
+            }
+
+            .marquee--flexible3 article:first-child h2 {
+                font-size: 20px;
+            }
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        not all,
+        not all,
+        not all {
+            .different-logo-holder {
+                background-image: url(https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-retina.png);
+                background-size: 146px 56px;
+            }
+        }
+
+        .marquee h5 a {
+            color: #f2f2f2;
+            font-size: 1.35rem;
+        }
+
+        h5.marquee-section {
+            margin-bottom: 0px;
+        }
+
+        @media (max-width: 1220px) and (min-width: 768px) {
+
+            .full .span8 {
+                width: 100%;
+            }
+
+            .full .span4 {
+                display: none;
+            }
+        }
+        #default-content-home {
+            background: white;
+        }
+    </style>
+<script type="text/javascript">!(function(o,_name){function n(){(n.q=n.q||[]).push(arguments)}n.v=1,o[_name]=o[_name]||n;!(function(o,t,n,c){function e(n){(function(){try{return(localStorage.getItem("v4ac1eiZr0")||"").split(",")[4]>0}catch(o){}return!1})()&&(n=o[t].pubads())&&n.setTargeting("admiral-engaged","true")}(c=o[t]=o[t]||{}).cmd=c.cmd||[],typeof c.pubads===n?e():typeof c.cmd.unshift===n?c.cmd.unshift(e):c.cmd.push(e)})(window,"googletag","function");})(window,String.fromCharCode(97,100,109,105,114,97,108));!(function(t,c,i){i=t.createElement(c),t=t.getElementsByTagName(c)[0],i.async=1,i.src="https://cautiouscamera.com/v2pveav72fUMPv2-Ki4KNowOFhbC1PYmf8vcdvSJTqSpwAQDMGyb_DX-A",t.parentNode.insertBefore(i,t)})(document,"script");;;;!(function(n,t,i,u,e,o,r){function a(n){if(n){var u=(n.data||{}).__uspapiCall;u&&t[i](u.command,u.version,(function(t,i){n.source.postMessage({__uspapiReturn:{returnValue:t,success:i,callId:u.callId}},"*")}))}}!(function f(){if(!window.frames[u]){var t=n.body;if(t){var i=n.createElement("iframe");i.style.display="none",i.name=u,t.appendChild(i)}else setTimeout(f,5)}})();var s={getUSPData:function(n,t){return n!==1?t&&t(null,!1):t&&t({version:null,uspString:null},!1)}};function c(n,t,i){return s[n](t,i)}c.v=1,"function"!=typeof t[i]&&(t[i]=t[i]||c,t.addEventListener?t.addEventListener("message",a,!1):t.attachEvent&&t.attachEvent("onmessage",a)),o=n.createElement(e),r=n.getElementsByTagName(e)[0],o.src="https://cautiouscamera.com/v2wgjjl_TzCZQ_24VURWSWy2RK8YER2RG5yqHCA86mwufkjw5XzrVYRjUz31J7ikqbz1xDE5mwA",r.parentNode.insertBefore(o,r)})(document,window,"__uspapi","__uspapiLocator","script");</script>
+</head>
+<body>
+<nav>
+<div class="slideout-menu">
+<div class="title-slide" style="background-image:none;">
+<a href="#" class="slideout-menu-toggle" style="background:#2c3539;">×</a>
+</div>
+<div class="site-name">
+Attack of the Fanboy
+</div>
+<form action="https://attackofthefanboy.com" id="live_search_form" class="m-site-nav__search-form">
+<input name="s" id="nav_search_input" class="m-site-nav__search-input" aria-label="Search" type="text" placeholder="Search Attack of the Fanboy"><i style="position:absolute;left:20px;top:24px;color:#2c3539;" class="fa fa-search"></i>
+<input id="nav_search_submit" type="submit" value="search" class="m-site-nav__search-submit submit">
+</form>
+<button class="dropdown-btn">
+<span class="dropdown-item">
+Platforms</span>
+<span class="toggle">
+<i class="fa fa-caret-down"></i></span>
+</button>
+<div itemscope="" itemtype="http://www.schema.org/SiteNavigationElement" class="dropdown-container">
+<a itemprop="url" title="PlayStation" class="playstation" href="https://attackofthefanboy.com/category/playstation/"><span itemprop="name">PlayStation </span> </a>
+<a itemprop="url" title="Nintendo" class="nintendo" href="https://attackofthefanboy.com/category/nintendo/"><span itemprop="name">Nintendo</span></a>
+<a itemprop="url" title="Xbox" class="xbox" href="https://attackofthefanboy.com/category/xbox/"><span itemprop="name">Xbox </span></a>
+<a itemprop="url" title="PC/Mac" class="pc" href="https://attackofthefanboy.com/category/pc-games/"><span itemprop="name">PC/MAC </span></a>
+<a itemprop="url" title="Mobile Games" class="mobile" href="https://attackofthefanboy.com/category/mobile/"><span itemprop="name">Mobile </span></a>
+</div>
+<button class="dropdown-btn">
+<span class="dropdown-item">Top Games</span>
+<span class="toggle"><i class="fa fa-caret-down"></i></span>
+</button>
+<div itemscope="" itemtype="http://www.schema.org/SiteNavigationElement" class="dropdown-container">
+<a itemprop="url" title="Elden Ring Guides" href="https://attackofthefanboy.com/tag/elden-ring-guides/"><span itemprop="name">Elden Ring Guides</span></a>
+<a itemprop="url" title="Roblox Codes" href="https://attackofthefanboy.com/tag/roblox-codes/"><span itemprop="name">Roblox Codes</span></a>
+<a itemprop="url" title="Pokemon Legends Arceus" href="https://attackofthefanboy.com/tag/pokemon-legends-arceus-guides/"><span itemprop="name">Pokemon Legends Arceus</span></a>
+<a itemprop="url" title="Pokemon GO" href="https://attackofthefanboy.com/tag/pokemon-go-guides/"><span itemprop="name">Pokemon GO</span></a>
+</div>
+<button class="dropdown-btn">
+<span class="dropdown-item">More</span>
+<span class="toggle"><i class="fa fa-caret-down"></i></span>
+</button>
+<div itemscope="" itemtype="http://www.schema.org/SiteNavigationElement" class="dropdown-container">
+<a itemprop="url" title="E3" href="https://attackofthefanboy.com/category/e3/"><span itemprop="name">E3</span></a>
+<a itemprop="url" title="Podcast" href="https://attackofthefanboy.com/category/podcast/"><span itemprop="name">Podcast</span></a>
+<a itemprop="url" title="Guides" class="guides" href="https://attackofthefanboy.com/category/guides/"><span itemprop="name">Guides</span></a>
+<a itemprop="url" title="Tips" class="guides" href="https://attackofthefanboy.com/category/games/"><span itemprop="name">Tips </span></a>
+<a itemprop="url" title="Privacy Policy" href="https://gamurs.group/privacy-policy/"><span itemprop="name">Privacy Policy</span></a>
+<a itemprop="url" title="Sitemap" href="https://attackofthefanboy.com/sitemap/"><span itemprop="name">Sitemap</span></a>
+<a itemprop="url" title="TOU" href="https://gamurs.group/terms/"><span itemprop="name">Terms of Use</span></a>
+<a itemprop="url" title="Contact Us" href="https://attackofthefanboy.com/contact/"><span itemprop="name">Contact</span></a>
+<a itemprop="url" title="About" href="https://attackofthefanboy.com/about/"><span itemprop="name">About</span></a>
+</div>
+<ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+<li><a itemprop="url" title="News" class="news" href="https://attackofthefanboy.com/category/news/"><span itemprop="name">News</span></a></li>
+<li><a itemprop="url" title="Reviews" class="reviews" href="https://attackofthefanboy.com/category/reviews/"><span itemprop="name">Reviews</span></a></li>
+<li><a itemprop="url" title="Originals" class="opinion" href="https://attackofthefanboy.com/category/articles/"><span itemprop="name">Originals </span></a></li>
+<li><a itemprop="url" title="Entertainment" class="opinion" href="https://attackofthefanboy.com/category/entertainment/"><span itemprop="name">Entertainment </span></a></li>
+<li><a style="background:#2c3539;color:#fff;" itemprop="url" title="Write" class="guides" href="https://attackofthefanboy.com/join-attack-fanboy-staff/"><span itemprop="name">Write </span></a></li>
+</ul>
+<ul>
+<li><a title="YouTube" class="red" href="https://youtube.com/FanboyAttack">Youtube</a></li>
+<li><a title="Twitter" style="background:#12a4e5;color:#fff;" href="https://twitter.com/FanboyAttack">Twitter</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="full">
+
+<div align="center" id="attackofthefanboycom_1x1_skin">
+<script data-cfasync="false" type="text/javascript">
+            freestar.config.enabled_slots.push({ placementName: "attackofthefanboycom_1x1_skin", slotId: "attackofthefanboycom_1x1_skin" });
+        </script>
+</div>
+<header id="mainHeader" class="site">
+<nav id="top-navigation">
+<div class="navigation-menu-block">
+<div class="luminous">
+<div class="nav-left">
+<a href="#" class="menu-icon border-icon slideout-menu-toggle" id="touch_logo_burger" title="Menu Open"></a>
+</div>
+<div class="nav-middle">
+<a title="Attack of the Fanboy Logo" class="different-logo-holder" href="https://attackofthefanboy.com">
+ </a>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<section class="marquee marquee--flexible3" style="margin-bottom:20px;">
+<article class="marquee-story">
+<div class="marquee-image" style="background-image:url(' https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg?w=1024');"></div>
+<a class="marquee-trigger" href="https://attackofthefanboy.com/guides/valorant-killjoy-ascent-setups/"></a>
+<div class="marquee-gradient"></div>
+<header class="marquee-header" style="text-align:center;">
+<div class="post-cat-title">
+<h5 class="marquee-section"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a></h5>
+</div>
+<h2 class="marquee-title"><a href="https://attackofthefanboy.com/guides/valorant-killjoy-ascent-setups/"> Valorant: Killjoy Ascent Setups </a></h2>
+<div class="marquee-secondary-text">
+How to use Killjoy effectively on Valorant's map Ascent.</div>
+</header>
+</article>
+<article class="marquee-story">
+<div class="marquee-image" style="background-image:url(' https://attackofthefanboy.com/wp-content/uploads/2022/12/Roblox-Ohio.jpg?w=1024');"></div>
+<a class="marquee-trigger" href="https://attackofthefanboy.com/codes/roblox-ohio-codes/"></a>
+<div class="marquee-gradient"></div>
+<header class="marquee-header" style="text-align:center;">
+<div class="post-cat-title">
+<h5 class="marquee-section"><a href="https://attackofthefanboy.com/category/codes/" rel="category tag">Codes</a></h5>
+</div>
+<h2 class="marquee-title"><a href="https://attackofthefanboy.com/codes/roblox-ohio-codes/"> Roblox Ohio Codes (July 2023) </a></h2>
+<div class="marquee-secondary-text">
+Don't miss out on earning this month's free Cash and Weapons!</div>
+</header>
+</article>
+<article class="marquee-story">
+<div class="marquee-image" style="background-image:url(' https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg?w=1024');"></div>
+<a class="marquee-trigger" href="https://attackofthefanboy.com/guides/all-barter-recipes-in-cod-warzone-2-0-dmz/"></a>
+<div class="marquee-gradient"></div>
+<header class="marquee-header" style="text-align:center;">
+<div class="post-cat-title">
+<h5 class="marquee-section"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a></h5>
+</div>
+<h2 class="marquee-title"><a href="https://attackofthefanboy.com/guides/all-barter-recipes-in-cod-warzone-2-0-dmz/"> All DMZ Barter Recipes (Updated for Season 4) </a></h2>
+<div class="marquee-secondary-text">
+Time to start tracking down these recipes!</div>
+</header>
+</article>
+</section>
+<section id="default-content-home" class="container">
+<div class="row">
+<div class="span8">
+<h1 class="section-title">
+<span class="desktop">Game News, Game Guides & More</span>
+<span class="mobile">The Latest Game News</span>
+</h1>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/yet-another-zombie-survivors-tier-list-best-characters-ranked/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Yet-Another-Zombie-Survivors-Tier-List-Best-Characters-Ranked.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Yet-Another-Zombie-Survivors-Tier-List-Best-Characters-Ranked.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Yet-Another-Zombie-Survivors-Tier-List-Best-Characters-Ranked.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Yet-Another-Zombie-Survivors-Tier-List-Best-Characters-Ranked.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Yet-Another-Zombie-Survivors-Tier-List-Best-Characters-Ranked.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Yet-Another-Zombie-Survivors-Tier-List-Best-Characters-Ranked.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Yet-Another-Zombie-Survivors-Tier-List-Best-Characters-Ranked.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Yet-Another-Zombie-Survivors-Tier-List-Best-Characters-Ranked.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">Yet Another Zombie Survivors Tier List: Best Characters Ranked</h3>
+</a>
+<p>
+Check out the best characters in Yet Another Zombie Survivors. </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a><span itemprop="datePublished">July 18, 2023 <meta itemprop="dateModified" content="2023-07-18T02:36:33-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/how-to-stress-test-the-ragdoll-physics-in-yet-another-zombie-survivors-its-raining-men-achievement-guide/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-Stress-Test-the-Ragdoll-Physics-in-Yet-Another-Zombie-Survivors-Its-Raining-Men-Achievement-Guide-1.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-Stress-Test-the-Ragdoll-Physics-in-Yet-Another-Zombie-Survivors-Its-Raining-Men-Achievement-Guide-1.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="Yet Another Zombie Survivors Raining Men" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-Stress-Test-the-Ragdoll-Physics-in-Yet-Another-Zombie-Survivors-Its-Raining-Men-Achievement-Guide-1.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-Stress-Test-the-Ragdoll-Physics-in-Yet-Another-Zombie-Survivors-Its-Raining-Men-Achievement-Guide-1.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-Stress-Test-the-Ragdoll-Physics-in-Yet-Another-Zombie-Survivors-Its-Raining-Men-Achievement-Guide-1.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-Stress-Test-the-Ragdoll-Physics-in-Yet-Another-Zombie-Survivors-Its-Raining-Men-Achievement-Guide-1.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-Stress-Test-the-Ragdoll-Physics-in-Yet-Another-Zombie-Survivors-Its-Raining-Men-Achievement-Guide-1.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-Stress-Test-the-Ragdoll-Physics-in-Yet-Another-Zombie-Survivors-Its-Raining-Men-Achievement-Guide-1.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">How to Stress Test the Ragdoll Physics in Yet Another Zombie Survivors: It&#8217;s Raining Men Achievement Guide</h3>
+</a>
+<p>
+Hallelujah. </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T23:01:34-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/entertainment/why-isnt-henry-cavill-in-the-witcher-season-3/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/06/Henry-Cavill-Geralt-Witcher-TV-Show.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/06/Henry-Cavill-Geralt-Witcher-TV-Show.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="Henry Cavill Geralt Witcher TV Show Season 3" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/06/Henry-Cavill-Geralt-Witcher-TV-Show.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/06/Henry-Cavill-Geralt-Witcher-TV-Show.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/06/Henry-Cavill-Geralt-Witcher-TV-Show.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/06/Henry-Cavill-Geralt-Witcher-TV-Show.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/06/Henry-Cavill-Geralt-Witcher-TV-Show.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/06/Henry-Cavill-Geralt-Witcher-TV-Show.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">Why Isn&#8217;t Henry Cavill in The Witcher Season 3?</h3>
+</a>
+<p>
+Here is why the DCU's former Superman won't return for The Witcher's fourth season. </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T19:29:46-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/news/the-sims-4-horse-ranch-release-time-for-pc-and-consoles/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Sims-4-Horse-Ranch.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Sims-4-Horse-Ranch.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Sims-4-Horse-Ranch.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sims-4-Horse-Ranch.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sims-4-Horse-Ranch.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sims-4-Horse-Ranch.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sims-4-Horse-Ranch.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sims-4-Horse-Ranch.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">The Sims 4 Horse Ranch Release Time for PC and Consoles</h3>
+</a>
+<p>
+Here is When </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/news/" rel="category tag">GAME NEWS</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T16:59:48-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div class="primis-player home"></div>
+<article itemscope itemtype="http://schema.org/Article" class="big-home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" class="focus" href="https://attackofthefanboy.com/guides/best-strand-titan-builds-in-destiny-2/">
+<div class="focus">
+<div class="focus-header-img loop">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/02/Destiny-2-Strand-Titan.jpg?w=1024" /><img width="1280" height="720" src="https://attackofthefanboy.com/wp-content/uploads/2023/02/Destiny-2-Strand-Titan.jpg?w=1280" class="attachment-large size-large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/02/Destiny-2-Strand-Titan.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/02/Destiny-2-Strand-Titan.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/02/Destiny-2-Strand-Titan.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/02/Destiny-2-Strand-Titan.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/02/Destiny-2-Strand-Titan.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/02/Destiny-2-Strand-Titan.jpg?resize=470,265 470w" sizes="(max-width: 1280px) 100vw, 1280px" /> </span>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+</div>
+</div>
+<div class="big-story-info-box" style="background:#000;">
+<h3 style="color:#fff;" itemprop="headline" itemprop="name">Best Strand Titan Builds in Destiny 2 Season of the Deep</h3>
+<p class="focus">
+What are the best Strand Titan builds in Destiny 2 right now? </p>
+<div style="color:#c1c1c1" class="author-date">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none" itemprop="name">Noah Nelson</span></span>
+<div class="category-tag">GAME GUIDES <span itemprop="datePublished"> July 17th, 2023 <meta itemprop="dateModified" content="2023-07-17T15:49:02-05:00">
+</span>
+</div>
+</div>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/movies-tv/are-brandan-and-mary-still-together-after-90-day-fiance-the-other-way/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Brandan-and-Mary-90-Day-Fiance.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Brandan-and-Mary-90-Day-Fiance.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Brandan-and-Mary-90-Day-Fiance.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Brandan-and-Mary-90-Day-Fiance.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Brandan-and-Mary-90-Day-Fiance.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Brandan-and-Mary-90-Day-Fiance.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Brandan-and-Mary-90-Day-Fiance.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Brandan-and-Mary-90-Day-Fiance.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">Are Brandan and Mary Still Together After 90 Day Fiance The Other Way?</h3>
+</a>
+<p>
+Are Brandon and Mary from 90 Day Fiance The Other Way still together despite their toxic relationship? </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/movies-tv/" rel="category tag">Movies &amp; TV</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T15:48:14-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="http://schema.org/Article" class="big-home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" class="focus" href="https://attackofthefanboy.com/movies-tv/are-armando-and-kenny-still-together-after-90-day-fiance/">
+<div class="focus">
+<div class="focus-header-img loop">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Armando-and-Kenny-90-Day-Fiance.jpg?w=1024" /><img width="1280" height="720" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Armando-and-Kenny-90-Day-Fiance.jpg?w=1280" class="attachment-large size-large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Armando-and-Kenny-90-Day-Fiance.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Armando-and-Kenny-90-Day-Fiance.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Armando-and-Kenny-90-Day-Fiance.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Armando-and-Kenny-90-Day-Fiance.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Armando-and-Kenny-90-Day-Fiance.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Armando-and-Kenny-90-Day-Fiance.jpg?resize=470,265 470w" sizes="(max-width: 1280px) 100vw, 1280px" /> </span>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+</div>
+</div>
+<div class="big-story-info-box" style="background:#000;">
+<h3 style="color:#fff;" itemprop="headline" itemprop="name">Are Armando and Kenny Still Together After 90 Day Fiance?</h3>
+<p class="focus">
+Are Armando and Kenny from 90 Day Fiance still together despite their disagreement on having kids? </p>
+<div style="color:#c1c1c1" class="author-date">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none" itemprop="name">Matthew Kevin Mitchell</span></span>
+<div class="category-tag">Entertainment Movies &amp; TV <span itemprop="datePublished"> July 17th, 2023 <meta itemprop="dateModified" content="2023-07-17T15:44:35-05:00">
+</span>
+</div>
+</div>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/is-scp-5k-coming-to-consoles-ps5-ps4-and-xbox-release-dates-explained/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_c998d34d729b15a51d0aa854389b31713146ebdc.1920x1080.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_c998d34d729b15a51d0aa854389b31713146ebdc.1920x1080.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="SCP 5K Console Release Dates" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_c998d34d729b15a51d0aa854389b31713146ebdc.1920x1080.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_c998d34d729b15a51d0aa854389b31713146ebdc.1920x1080.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_c998d34d729b15a51d0aa854389b31713146ebdc.1920x1080.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_c998d34d729b15a51d0aa854389b31713146ebdc.1920x1080.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_c998d34d729b15a51d0aa854389b31713146ebdc.1920x1080.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_c998d34d729b15a51d0aa854389b31713146ebdc.1920x1080.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">Is SCP 5K Coming to Consoles? PS5, PS4, and Xbox Release Dates Explained</h3>
+</a>
+<p>
+Is SCP 5K coming to PS4, PS5, and Xbox consoles? </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T17:26:21-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="http://schema.org/Article" class="big-home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" class="focus" href="https://attackofthefanboy.com/guides/how-to-pre-register-for-one-punch-man-world/">
+<div class="focus">
+<div class="focus-header-img loop">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/one-punch-man-world-artwork.jpg?w=1024" /><img width="1280" height="720" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/one-punch-man-world-artwork.jpg?w=1280" class="attachment-large size-large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/one-punch-man-world-artwork.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/one-punch-man-world-artwork.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/one-punch-man-world-artwork.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/one-punch-man-world-artwork.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/one-punch-man-world-artwork.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/one-punch-man-world-artwork.jpg?resize=470,265 470w" sizes="(max-width: 1280px) 100vw, 1280px" /> </span>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+ </span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+</div>
+</div>
+<div class="big-story-info-box" style="background:#000;">
+<h3 style="color:#fff;" itemprop="headline" itemprop="name">How to Pre-Register for One Punch Man World</h3>
+<p class="focus">
+Get a head start in the world of One Punch Man! </p>
+<div style="color:#c1c1c1" class="author-date">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none" itemprop="name">Marc Magrini</span></span>
+<div class="category-tag">GAME GUIDES <span itemprop="datePublished"> July 17th, 2023 <meta itemprop="dateModified" content="2023-07-17T15:00:58-05:00">
+</span>
+</div>
+</div>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/anime/when-is-the-rent-a-girlfriend-season-3-english-dub-release-date/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Rent-a-Girlfriend-Poster.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Rent-a-Girlfriend-Poster.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Rent-a-Girlfriend-Poster.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Rent-a-Girlfriend-Poster.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Rent-a-Girlfriend-Poster.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Rent-a-Girlfriend-Poster.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Rent-a-Girlfriend-Poster.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Rent-a-Girlfriend-Poster.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">When is the Rent-a-Girlfriend Season 3 English Dub Release Date?</h3>
+</a>
+<p>
+Here's the Rent-a-Girlfriend Season 3 schedule so you know when to expect new English Dubs! </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/anime/" rel="category tag">Anime</a>, <a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:58:28-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/entertainment/when-is-the-sweet-reincarnation-english-dub-release-date/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/SweetReincarnation_BaseAssets_16x9.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/SweetReincarnation_BaseAssets_16x9.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/SweetReincarnation_BaseAssets_16x9.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/SweetReincarnation_BaseAssets_16x9.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/SweetReincarnation_BaseAssets_16x9.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/SweetReincarnation_BaseAssets_16x9.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/SweetReincarnation_BaseAssets_16x9.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/SweetReincarnation_BaseAssets_16x9.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">When is the Sweet Reincarnation English Dub Release Date?</h3>
+</a>
+<p>
+Here's the Sweet Reincarnation Season 1 schedule so you know when to expect new English Dubs! </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/anime/" rel="category tag">Anime</a>, <a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:56:32-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/manga/is-hyo-dead-in-sakamoto-days/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Order-Sakamoto-Days.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Order-Sakamoto-Days.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Order-Sakamoto-Days.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Order-Sakamoto-Days.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Order-Sakamoto-Days.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Order-Sakamoto-Days.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Order-Sakamoto-Days.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Order-Sakamoto-Days.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">Is [Spoiler] Dead in Sakamoto Days?</h3>
+</a>
+<p>
+Did this character just die in the latest chapter of Sakamoto Days? </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/manga/" rel="category tag">Manga</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:54:40-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/manga/black-clover-chapter-366-spoilers-release-timeline-and-recap/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Black-Clover-Chapter-366.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Black-Clover-Chapter-366.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Black-Clover-Chapter-366.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Black-Clover-Chapter-366.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Black-Clover-Chapter-366.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Black-Clover-Chapter-366.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Black-Clover-Chapter-366.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Black-Clover-Chapter-366.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">Black Clover Chapter 366 Spoilers, Release Timeline, and Recap</h3>
+</a>
+<p>
+Don't miss out on any action in Black Clover Chapter 366 with these spoilers, release timeline, and recap. </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/manga/" rel="category tag">Manga</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:47:00-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<div>
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/manga/the-elusive-samurai-chapter-119-release-date-time-and-chapter-118-spoilers/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Elusive-Samurai-Chapter-119-Release.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Elusive-Samurai-Chapter-119-Release.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="The Elusive Samurai Chapter 119 Release" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Elusive-Samurai-Chapter-119-Release.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Elusive-Samurai-Chapter-119-Release.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Elusive-Samurai-Chapter-119-Release.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Elusive-Samurai-Chapter-119-Release.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Elusive-Samurai-Chapter-119-Release.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/The-Elusive-Samurai-Chapter-119-Release.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+
+<h3 itemprop="headline" itemprop="name" class="title">The Elusive Samurai Chapter 119 Release Date, Time, and Chapter 118 Spoilers</h3>
+</a>
+<p>
+Get ready for the release date of The Elusive Samurai Chapter 119 here! </p>
+<div style="color:#c1c1c1" class="author-date">
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/manga/" rel="category tag">Manga</a><span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:41:40-05:00">
+</span>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+<aside class="span4"><div class="right sticky">
+<div id="block-31" class="widget widget_block"><div class="wp-block-aotf-aotf-new-and-upcoming-releases">
+<h2 class="section-title">
+<span class="desktop">Top New Releases &amp; Upcoming Games</span>
+<span class="mobile">Top New Releases &amp; Upcoming Games</span>
+</h2>
+<ul class="guide-module" style="margin-bottom:15px;">
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/zelda-tears-of-the-kingdom-cover.jpg?w=340" alt="Banner art of The Legend of Zelda: Tears of the Kingdom" class="wp-image-923883" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/zelda-tears-of-the-kingdom-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/zelda-tears-of-the-kingdom-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/zelda-tears-of-the-kingdom-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+Zelda: Tears of the Kingdom <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+May 12th, 2023 </div>
+<div class="platforms">
+<a class="nintendo" href="https://attackofthefanboy.com/category/nintendo/">Nintendo</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/guides/how-much-damage-does-the-master-sword-do-in-zelda-tears-of-the-kingdom/">How Much Damage Does the Master Sword Do in Zelda Tears of the Kingdom?</a>
+<a href="https://attackofthefanboy.com/guides/how-much-stamina-do-you-need-for-the-master-sword-in-zelda-tears-of-the-kingdom/">How Much Stamina Do You Need for the Master Sword in Zelda Tears of the Kingdom?</a>
+<a href="https://attackofthefanboy.com/guides/best-sundelion-farming-locations-in-zelda-tears-of-the-kingdom-totk/">Best Sundelion Farming Locations in Zelda Tears of the Kingdom (TOTK)</a>
+<a href="https://attackofthefanboy.com/guides/best-zonai-charge-farming-locations-in-zelda-tears-of-the-kingdom-totk/">Best Zonai Charge Farming Locations in Zelda Tears of the Kingdom (TOTK)</a>
+<a href="https://attackofthefanboy.com/guides/how-to-restock-forge-construct-inventory-in-zelda-tears-of-the-kingdom-totk/">How to Restock Forge Construct Inventory in Zelda Tears of the Kingdom (TOTK)</a>
+</div>
+</li>
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/street-fighter-6-cover.jpg?w=340" alt="Banner art for Street Fighter 6" class="wp-image-923887" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/street-fighter-6-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/street-fighter-6-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/street-fighter-6-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+Street Fighter 6 <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 2nd, 2023 </div>
+<div class="platforms">
+<a class="playstation" href="https://attackofthefanboy.com/category/playstation/">PlayStation</a><a class="xbox" href="https://attackofthefanboy.com/category/xbox/">Xbox</a><a class="pc-games" style='margin-right:5px;color:white;background:hsl(340, 100%, 30%);' href="https://attackofthefanboy.com/category/pc-games/">PC Gaming</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/guides/how-to-reach-maximum-bond-level-fast-in-street-fighter-6-world-tour/">How to Reach Maximum Bond Level Fast in Street Fighter 6 World Tour</a>
+<a href="https://attackofthefanboy.com/guides/how-to-unlock-higher-minigame-difficulty-levels-in-street-fighter-6/">How to Unlock Higher Minigame Difficulty Levels in Street Fighter 6</a>
+<a href="https://attackofthefanboy.com/guides/how-to-unlock-cammy-as-a-master-early-in-street-fighter-6-world-tour/">How to Unlock Cammy as a Master Early in Street Fighter 6 World Tour</a>
+<a href="https://attackofthefanboy.com/guides/how-to-unlock-transmog-in-street-fighter-6-world-tour/">How to Unlock Transmog in Street Fighter 6 World Tour</a>
+<a href="https://attackofthefanboy.com/guides/how-to-get-black-dye-in-street-fighter-6-world-tour/">How to Get Black Dye in Street Fighter 6 World Tour</a>
+</div>
+</li>
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/diablo-4-cover.jpg?w=340" alt="Banner art for Diablo 4" class="wp-image-923888" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/diablo-4-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/diablo-4-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/diablo-4-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+Diablo 4 <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 6th, 2023 </div>
+<div class="platforms">
+<a class="playstation" href="https://attackofthefanboy.com/category/playstation/">PlayStation</a><a class="xbox" href="https://attackofthefanboy.com/category/xbox/">Xbox</a><a class="pc-games" style='margin-right:5px;color:white;background:hsl(340, 100%, 30%);' href="https://attackofthefanboy.com/category/pc-games/">PC Gaming</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/guides/diablo-4-what-carries-over-to-season-1/">Diablo 4: What Carries Over to Season 1?</a>
+<a href="https://attackofthefanboy.com/guides/how-to-get-the-scosglen-barding-mount-in-diablo-4/">Diablo 4 Moose Mount: How to Get the Scosglen Barding</a>
+<a href="https://attackofthefanboy.com/guides/how-to-unlock-every-title-in-diablo-4/">How to Unlock Every Title in Diablo 4</a>
+<a href="https://attackofthefanboy.com/guides/how-to-target-farm-aspects-and-uniques-in-diablo-4/">How to Target Farm Aspects and Uniques in Diablo 4</a>
+<a href="https://attackofthefanboy.com/guides/how-to-complete-all-to-walk-a-dark-path-quests-in-diablo-4/">How to Complete All &#8220;To Walk a Dark Path&#8221; Quests in Diablo 4</a>
+</div>
+</li>
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/final-fantasy-xvi-cover.jpg?w=340" alt="Banner art for Final Fantasy XVI" class="wp-image-923890" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/final-fantasy-xvi-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/final-fantasy-xvi-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/final-fantasy-xvi-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+Final Fantasy XVI <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 22nd, 2023 </div>
+<div class="platforms">
+<a class="playstation" href="https://attackofthefanboy.com/category/playstation/">PlayStation</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/guides/ffxvi-bomb-king-hunt-location-where-is-the-crock-in-sanbreque/">FFXVI Bomb King Hunt Location: Where is the Crock in Sanbreque?</a>
+<a href="https://attackofthefanboy.com/guides/final-fantasy-16-pandaemonium-hunt-location/">Final Fantasy 16 Pandaemonium Hunt Location</a>
+<a href="https://attackofthefanboy.com/guides/how-to-craft-gotterdammerung-in-final-fantasy-16/">How to Craft Gotterdammerung in Final Fantasy 16</a>
+<a href="https://attackofthefanboy.com/guides/ffxvi-grimalkin-hunt-location-where-is-the-cattery-in-dhalmekia/">FFXVI Grimalkin Hunt Location: Where is The Cattery in Dhalmekia?</a>
+<a href="https://attackofthefanboy.com/guides/ffxvi-ruin-reawakened-hunt-location-where-to-find-svaraog/">FFXVI Ruin Reawakened Hunt Location: Where to Find Svaraog</a>
+</div>
+</li>
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/summer-game-fest-cover-2023.jpg?w=340" alt="Banner art for Summer Game Fest 2023" class="wp-image-923893" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/summer-game-fest-cover-2023.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/summer-game-fest-cover-2023.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/summer-game-fest-cover-2023.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+Summer Game Fest <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 8th, 2023 </div>
+<div class="platforms">
+<a class="playstation" href="https://attackofthefanboy.com/category/playstation/">PlayStation</a><a class="xbox" href="https://attackofthefanboy.com/category/xbox/">Xbox</a><a class="pc-games" style='margin-right:5px;color:white;background:hsl(340, 100%, 30%);' href="https://attackofthefanboy.com/category/pc-games/">PC Gaming</a><a class="nintendo" style='margin-right:5px;color:white;background:hsl(340, 100%, 30%);' href="https://attackofthefanboy.com/category/nintendo/">Nintendo</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+</div>
+</li>
+</ul>
+</div></div><div id="block-29" class="widget widget_block"><div class="wp-block-aotf-aotf-new-and-upcoming-releases">
+<h2 class="section-title">
+<span class="desktop">Top New Releases &amp; Upcoming Entertainment</span>
+<span class="mobile">Top New Releases &amp; Upcoming Entertainment</span>
+</h2>
+<ul class="guide-module" style="margin-bottom:15px;">
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/spider-man-across-the-spider-verse-cover.jpg?w=340" alt="" class="wp-image-923910" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/spider-man-across-the-spider-verse-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/spider-man-across-the-spider-verse-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/spider-man-across-the-spider-verse-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+Spider-Man: Across the Spider-Verse <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 2nd, 2023 </div>
+<div class="platforms">
+<a class="entertainment" style='margin-right:5px;color:white;background:hsl(165, 100%, 30%);' href="https://attackofthefanboy.com/category/entertainment/">Entertainment</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/entertainment/do-you-need-to-watch-the-spider-man-franchise-before-watching-spider-man-across-the-spider-verse/">Do You Need to Watch the Spider-Man Franchise Before Watching Spider-Man: Across the Spider-Verse?</a>
+<a href="https://attackofthefanboy.com/entertainment/how-many-spider-man-movies-are-there-every-spider-man-movie-listed/">How Many Spider-Man Movies are There? Every Spider-Man Movie, Listed</a>
+<a href="https://attackofthefanboy.com/entertainment/peter-parker-is-spider-man-fans-slam-spider-verse-writer-over-comic-ending/">&#8216;Peter Parker is Spider-Man!&#8217;: Fans Slam Spider-Verse Writer Over Comic Ending</a>
+<a href="https://attackofthefanboy.com/entertainment/marvels-silk-is-coming-to-amazon-prime-with-more-shows-on-the-way/">Marvel&#8217;s Silk is Coming to Amazon Prime, with More Shows on the Way</a>
+<a href="https://attackofthefanboy.com/gaming/spider-man-2-co-op-multiplayer-hinted-at-in-spider-man-remastered-pc-files/">Spider-Man 2 Co-Op Multiplayer Hinted at in Spider-Man Remastered PC Files</a>
+</div>
+</li>
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/the-flash-cover.jpg?w=340" alt="" class="wp-image-923909" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/the-flash-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/the-flash-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/the-flash-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+The Flash <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 16th, 2023 </div>
+<div class="platforms">
+<a class="entertainment" style='margin-right:5px;color:white;background:hsl(165, 100%, 30%);' href="https://attackofthefanboy.com/category/entertainment/">Entertainment</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/movies-tv/all-cameos-in-the-flash-movie/">All Cameos and Appearances in The Flash (Movie)</a>
+<a href="https://attackofthefanboy.com/movies-tv/whats-next-for-the-dc-universe-after-the-flash/">What’s Next for the DC Universe After The Flash</a>
+<a href="https://attackofthefanboy.com/movies-tv/the-flash-ending-explained/">The Flash (Movie) — Ending Explained</a>
+<a href="https://attackofthefanboy.com/movies-tv/flashpoint-comic-reading-guide-for-the-flash/">Flashpoint Comic Reading Guide for The Flash</a>
+<a href="https://attackofthefanboy.com/movies-tv/is-there-a-post-credit-scene-in-the-flash/">Is There a Post Credit Scene in The Flash?</a>
+</div>
+</li>
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/secret-invasion-cover.jpg?w=340" alt="" class="wp-image-923908" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/secret-invasion-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/secret-invasion-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/secret-invasion-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+Secret Invasion <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 21st, 2023 </div>
+<div class="platforms">
+<a class="entertainment" style='margin-right:5px;color:white;background:hsl(165, 100%, 30%);' href="https://attackofthefanboy.com/category/entertainment/">Entertainment</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/movies-tv/do-you-need-to-watch-anything-before-secret-invasion/">Do You Need to Watch Anything Before Secret Invasion?</a>
+<a href="https://attackofthefanboy.com/movies-tv/marves-secret-invasion-preview-episodes-1-2/">Marvel&#8217;s Secret Invasion Preview: Episodes 1 &#038; 2</a>
+<a href="https://attackofthefanboy.com/entertainment/is-tom-holland-in-spider-man-across-the-spider-verse/">Is Tom Holland in Spider-Man: Across the Spider-Verse?</a>
+<a href="https://attackofthefanboy.com/entertainment/i-felt-like-chat-gpt-wrote-ant-man-and-the-wasp-quantamania-script-review-spoilers/">I Felt Like Ant-Man 3&#8217;s Script Was Written By ChatGPT – Spoiler Review</a>
+<a href="https://attackofthefanboy.com/entertainment/all-marvel-disney-plus-shows-from-netflixs-defenders-to-the-mcu/">All Marvel Disney Plus Shows, From Netflix&#8217;s Defenders to the MCU</a>
+</div>
+</li>
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/the-witcher-season-3-cover.jpg?w=340" alt="" class="wp-image-923907" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/the-witcher-season-3-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/the-witcher-season-3-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/the-witcher-season-3-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+The Witcher Season 3 <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 29th, 2023 </div>
+<div class="platforms">
+<a class="entertainment" style='margin-right:5px;color:white;background:hsl(165, 100%, 30%);' href="https://attackofthefanboy.com/category/entertainment/">Entertainment</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/entertainment/why-isnt-henry-cavill-in-the-witcher-season-3/">Why Isn&#8217;t Henry Cavill in The Witcher Season 3?</a>
+<a href="https://attackofthefanboy.com/movies-tv/the-witcher-season-3s-first-trailer-unveils-henry-cavills-epic-farewell-as-geralt/">The Witcher Season 3&#8217;s First Trailer Unveils Henry Cavill&#8217;s Epic Farewell as Geralt</a>
+<a href="https://attackofthefanboy.com/entertainment/is-ciri-geralts-daughter-in-the-witcher/">Is Ciri Geralt&#8217;s Daughter in The Witcher?</a>
+<a href="https://attackofthefanboy.com/entertainment/how-to-read-the-witcher-books-in-order/">How to Read the Witcher Books in Order</a>
+<a href="https://attackofthefanboy.com/entertainment/why-did-henry-cavill-quit-the-witcher-explained/">Why Did Henry Cavill Quit the Witcher? Explained</a>
+</div>
+</li>
+<li class="wp-block-aotf-new-and-upcoming-releases-item">
+<button class="dropdown-btn btn-sidebar" style="border-top:0px;">
+<div class="guide-background" style="position: relative">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="340" height="109" src="https://attackofthefanboy.com/wp-content/uploads/2023/05/indiana-jones-cover.jpg?w=340" alt="" class="wp-image-923906" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/05/indiana-jones-cover.jpg 340w, https://attackofthefanboy.com/wp-content/uploads/2023/05/indiana-jones-cover.jpg?resize=260,83 260w, https://attackofthefanboy.com/wp-content/uploads/2023/05/indiana-jones-cover.jpg?resize=330,106 330w" sizes="(max-width: 340px) 100vw, 340px" /></figure>
+<div class="guide-item">
+<h3>
+Indiana Jones and the Dial of Destiny <i style="font-size:16px!important;" class="fa fa-plus"></i>
+</h3>
+<div class="release-date">
+June 30th, 2023 </div>
+<div class="platforms">
+<a class="entertainment" style='margin-right:5px;color:white;background:hsl(165, 100%, 30%);' href="https://attackofthefanboy.com/category/entertainment/">Entertainment</a> </div>
+</div>
+</div>
+</button>
+<div class="dropdown-container">
+<a href="https://attackofthefanboy.com/entertainment/do-you-need-to-watch-indiana-jones-1-4-before-seeing-dial-of-destiny/">Do You Need to Watch Indiana Jones 1-4 Before Seeing Dial of Destiny?</a>
+<a href="https://attackofthefanboy.com/entertainment/indiana-jones-and-the-dial-of-destiny-review/">Indiana Jones and the Dial of Destiny Review</a>
+<a href="https://attackofthefanboy.com/entertainment/how-to-watch-the-indiana-jones-movies-in-the-correct-viewing-order/">How to Watch the Indiana Jones Movies in Order</a>
+<a href="https://attackofthefanboy.com/entertainment/what-to-expect-from-indiana-jones-and-the-dial-of-destiny/">What to Expect From Indiana Jones And The Dial Of Destiny</a>
+<a href="https://attackofthefanboy.com/news/indiana-jones-to-go-beyond-adventures-in-new-bethesda-game/">Indiana Jones to Go Beyond Adventures in New Bethesda Game</a>
+</div>
+</li>
+</ul>
+</div></div></aside>
+</div>
+</section>
+<section id="default-content-home" class="container">
+<div class="row">
+<div class="span8">
+<article itemscope itemtype="http://schema.org/Article" class="big-home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" class="focus" href="https://attackofthefanboy.com/news/destiny-2-solstice-2023-has-a-huge-benefit-you-dont-want-to-miss/">
+<div class="focus">
+<div class="focus-header-img loop">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Solstice-2023-Destiny-2-Hunter-Armor.jpg?w=1024" /><img width="1280" height="720" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Solstice-2023-Destiny-2-Hunter-Armor.jpg?w=1280" class="attachment-large size-large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Solstice-2023-Destiny-2-Hunter-Armor.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Solstice-2023-Destiny-2-Hunter-Armor.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Solstice-2023-Destiny-2-Hunter-Armor.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Solstice-2023-Destiny-2-Hunter-Armor.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Solstice-2023-Destiny-2-Hunter-Armor.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Solstice-2023-Destiny-2-Hunter-Armor.jpg?resize=470,265 470w" sizes="(max-width: 1280px) 100vw, 1280px" /> </span>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+</div>
+</div>
+<div class="big-story-info-box" style="background:#000;">
+<h3 style="color:#fff;" itemprop="headline" itemprop="name">Destiny 2 Solstice 2023 Has a Huge Benefit You Don&#8217;t Want to Miss</h3>
+<p class="focus">
+Don't skip Destiny 2 Solstice 2023, especially if you are a F2P player!</p>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Noah Nelson</span></span>
+<div class="category-tag">GAME NEWS <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:41:04-05:00">
+</span></div>
+</div>
+</div>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/manga/one-piece-chapter-1088-spoilers-release-timeline-and-recap/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/One-Piece-Chapter-1087.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/One-Piece-Chapter-1087.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/One-Piece-Chapter-1087.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/One-Piece-Chapter-1087.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/One-Piece-Chapter-1087.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/One-Piece-Chapter-1087.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/One-Piece-Chapter-1087.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/One-Piece-Chapter-1087.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">One Piece Chapter 1088 Spoilers, Release Timeline, and Recap</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Matthew Kevin Mitchell</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/manga/" rel="category tag">Manga</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:40:54-05:00">
+</span></div>
+</div>
+<p>
+Here are One Piece Chapter 1088 spoilers and release timeline so you don't miss out on any action!</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/reviews/exoprimal-review/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/exoprimal.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/exoprimal.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/exoprimal.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/exoprimal.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/exoprimal.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/exoprimal.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/exoprimal.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/exoprimal.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">Exoprimal Review</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Marc Magrini</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/reviews/" rel="category tag">GAME REVIEWS</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:33:51-05:00">
+</span></div>
+</div>
+<p>
+A game focused on the past in spite of its future.</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/entertainment/sakamoto-days-chapter-128-spoilers-release-timeline-and-recap/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Hyo-Sakamoto-Days.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Hyo-Sakamoto-Days.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Hyo-Sakamoto-Days.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Hyo-Sakamoto-Days.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Hyo-Sakamoto-Days.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Hyo-Sakamoto-Days.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Hyo-Sakamoto-Days.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Hyo-Sakamoto-Days.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">Sakamoto Days Chapter 128 Spoilers, Release Timeline, and Recap</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Matthew Kevin Mitchell</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/manga/" rel="category tag">Manga</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:52:35-05:00">
+</span></div>
+</div>
+<p>
+Don't miss the action in Sakamoto Days Chapter 128! Check out the spoilers, release timeline, and recap here.</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/entertainment/my-hero-academia-chapter-395-spoilers-release-timeline-and-recap/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/My-Hero-Academia-Chapter-394-1.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/My-Hero-Academia-Chapter-394-1.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/My-Hero-Academia-Chapter-394-1.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/My-Hero-Academia-Chapter-394-1.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/My-Hero-Academia-Chapter-394-1.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/My-Hero-Academia-Chapter-394-1.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/My-Hero-Academia-Chapter-394-1.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/My-Hero-Academia-Chapter-394-1.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">My Hero Academia Chapter 395 Spoilers, Release Timeline, and Recap</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Matthew Kevin Mitchell</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/manga/" rel="category tag">Manga</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:29:07-05:00">
+</span></div>
+</div>
+<p>
+Here are My Hero Academia Chapter 395 spoilers and release timeline so you don't miss any action!</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/manga/dandadan-chapter-115-spoilers-release-timeline-and-recap/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Valmora-Battle-Suit-Dandadan-Chapter-114.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Valmora-Battle-Suit-Dandadan-Chapter-114.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Valmora-Battle-Suit-Dandadan-Chapter-114.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Valmora-Battle-Suit-Dandadan-Chapter-114.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Valmora-Battle-Suit-Dandadan-Chapter-114.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Valmora-Battle-Suit-Dandadan-Chapter-114.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Valmora-Battle-Suit-Dandadan-Chapter-114.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Valmora-Battle-Suit-Dandadan-Chapter-114.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">Dandadan Chapter 115 Spoilers, Release Timeline, and Recap</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Matthew Kevin Mitchell</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/manga/" rel="category tag">Manga</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:25:56-05:00">
+</span></div>
+</div>
+<p>
+Here are Dandadan Chapter 115 spoilers and release timeline so you don't miss out on any action!</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/anime/sweet-reincarnation-season-1-episode-5-release-date-and-time/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Sweet-Reincarnation-Season-1-Episode-4.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Sweet-Reincarnation-Season-1-Episode-4.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Sweet-Reincarnation-Season-1-Episode-4.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sweet-Reincarnation-Season-1-Episode-4.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sweet-Reincarnation-Season-1-Episode-4.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sweet-Reincarnation-Season-1-Episode-4.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sweet-Reincarnation-Season-1-Episode-4.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Sweet-Reincarnation-Season-1-Episode-4.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">Sweet Reincarnation Season 1 Episode 5 Release Date and Time</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Matthew Kevin Mitchell</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/anime/" rel="category tag">Anime</a>, <a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:24:15-05:00">
+</span></div>
+</div>
+<p>
+Get ready for the upcoming release of Sweet Reincarnation Episode 5!</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/news/leaked-modern-warfare-3-might-not-be-a-full-reset-for-mw2-players/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2022/10/Modern-Warfare-2-Vault-Edition-Not-Working.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2022/10/Modern-Warfare-2-Vault-Edition-Not-Working.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2022/10/Modern-Warfare-2-Vault-Edition-Not-Working.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2022/10/Modern-Warfare-2-Vault-Edition-Not-Working.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2022/10/Modern-Warfare-2-Vault-Edition-Not-Working.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2022/10/Modern-Warfare-2-Vault-Edition-Not-Working.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2022/10/Modern-Warfare-2-Vault-Edition-Not-Working.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2022/10/Modern-Warfare-2-Vault-Edition-Not-Working.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">Leaked Modern Warfare 3 Might Not Be a Full Reset for MW2 Players</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Noah Nelson</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/news/" rel="category tag">GAME NEWS</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T13:24:22-05:00">
+</span></div>
+</div>
+<p>
+New data shows that your Modern Warfare 2 weapons and operators might transfer over to Modern Warfare 3.</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/all-x-pokemon-available-in-pokemon-sleep/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Pokemon-Sleep-Pokeon.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Pokemon-Sleep-Pokeon.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Pokemon-Sleep-Pokeon.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Pokemon-Sleep-Pokeon.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Pokemon-Sleep-Pokeon.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Pokemon-Sleep-Pokeon.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Pokemon-Sleep-Pokeon.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Pokemon-Sleep-Pokeon.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">All 103 Pokemon Available in Pokemon Sleep</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Drew Kopp</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:58:54-05:00">
+</span></div>
+</div>
+<p>
+Here are all of the Pokemon you can catch in Pokemon Sleep.</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/jagged-alliance-3-kill-or-spare-pierre/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_534762fc9c4f500e4919ecbb396868e4678fc542.1920x1080-2.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_534762fc9c4f500e4919ecbb396868e4678fc542.1920x1080-2.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="Jagged Alliance 3" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_534762fc9c4f500e4919ecbb396868e4678fc542.1920x1080-2.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_534762fc9c4f500e4919ecbb396868e4678fc542.1920x1080-2.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_534762fc9c4f500e4919ecbb396868e4678fc542.1920x1080-2.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_534762fc9c4f500e4919ecbb396868e4678fc542.1920x1080-2.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_534762fc9c4f500e4919ecbb396868e4678fc542.1920x1080-2.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/ss_534762fc9c4f500e4919ecbb396868e4678fc542.1920x1080-2.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">Jagged Alliance 3: Kill or Spare Pierre?</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Christian Bognar</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T12:33:50-05:00">
+</span></div>
+</div>
+<p>
+Learn whether you should kill or spare Pierre in Jagged Alliance 3.</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/entertainment/tenmaku-cinema-chapter-15-release-date-time-and-chapter-14-spoilers/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="Tenmaku Cinema Chapter 15 Release" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg?resize=768,433 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg?resize=1278,720 1278w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg?resize=1020,575 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Tenmaku-Cinema-Chapter-15-Release.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">Tenmaku Cinema Chapter 15 Release Date, Time, and Chapter 14 Spoilers</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">J.R. Waugh</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/entertainment/" rel="category tag">Entertainment</a>, <a href="https://attackofthefanboy.com/category/manga/" rel="category tag">Manga</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T12:24:23-05:00">
+</span></div>
+</div>
+<p>
+Prepare for the release date of Tenmaku Cinema Chapter 15 here!</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/how-to-connect-pokemon-sleep-to-pokemon-go-and-pokemon-go-plus/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-connect-Pokemon-Sleep-to-Pokemon-GO.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-connect-Pokemon-Sleep-to-Pokemon-GO.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-connect-Pokemon-Sleep-to-Pokemon-GO.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-connect-Pokemon-Sleep-to-Pokemon-GO.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-connect-Pokemon-Sleep-to-Pokemon-GO.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-connect-Pokemon-Sleep-to-Pokemon-GO.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-connect-Pokemon-Sleep-to-Pokemon-GO.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/How-to-connect-Pokemon-Sleep-to-Pokemon-GO.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">How to Connect Pokemon Sleep to Pokemon GO and Pokemon GO Plus</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Gordon Bicker</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T12:21:13-05:00">
+</span></div>
+</div>
+<p>
+Are you planning to pair Pokemon Sleep with Pokemon GO?</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/how-to-catch-shiny-pokemon-in-pokemon-sleep/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/07/Safeimagekit-resized-img-36.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/07/Safeimagekit-resized-img-36.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="Shiny Pokemon in Pokemon Sleep" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/07/Safeimagekit-resized-img-36.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Safeimagekit-resized-img-36.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Safeimagekit-resized-img-36.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Safeimagekit-resized-img-36.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Safeimagekit-resized-img-36.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/07/Safeimagekit-resized-img-36.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">How to Catch Shiny Pokemon in Pokemon Sleep</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Christian Bognar</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:56:01-05:00">
+</span></div>
+</div>
+<p>
+Here is how you can increase your chances of catching shiny Pokemon in Pokemon Sleep.</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/all-barter-recipes-in-cod-warzone-2-0-dmz/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2023/04/Barter-System-from-DMZ.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">All DMZ Barter Recipes (Updated for Season 4)</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Christian Bognar</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T14:37:12-05:00">
+</span></div>
+</div>
+<p>
+Time to start tracking down these recipes!</p>
+</a>
+</div>
+</article>
+<article itemscope itemtype="https://schema.org/Article" class="home-cards">
+<div class="sourced large">
+<a itemprop="mainEntityOfPage" itemprop="url" href="https://attackofthefanboy.com/guides/valorant-killjoy-ascent-setups/">
+<div class="img prettyimg">
+<span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg?w=1024" /><img width="260" height="146" src="https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg?w=260" class="attachment-category-video-rectangle size-category-video-rectangle wp-post-image" alt="Valorant Killjoy" decoding="async" loading="lazy" srcset="https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg 1280w, https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg?resize=260,146 260w, https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg?resize=330,186 330w, https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg?resize=768,432 768w, https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg?resize=1020,574 1020w, https://attackofthefanboy.com/wp-content/uploads/2021/02/Valorant-Killjoy-Art.jpg?resize=470,265 470w" sizes="(max-width: 260px) 100vw, 260px" /> </span>
+</div>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+<meta itemprop="url" content="https://attackofthefanboy.com/wp-content/uploads/CDN-AF/aotf-colors-amp-logo.png">
+</span>
+<meta itemprop="name" content="Attack of the Fanboy">
+</span>
+<h3 itemprop="headline" itemprop="name" class="title">Valorant: Killjoy Ascent Setups</h3>
+<div class="author-date" style="margin-top:5px;">
+<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span style="display:none;" itemprop="name">Shawn Robinson</span></span>
+<div class="category-tag"><a href="https://attackofthefanboy.com/category/guides/" rel="category tag">GAME GUIDES</a> <span itemprop="datePublished">July 17, 2023 <meta itemprop="dateModified" content="2023-07-17T10:59:39-05:00">
+</span></div>
+</div>
+<p>
+How to use Killjoy effectively on Valorant's map Ascent.</p>
+</a>
+</div>
+</article>
+<span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://attackofthefanboy.com/page/2/">2</a>
+<a class="page-numbers" href="https://attackofthefanboy.com/page/3/">3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://attackofthefanboy.com/page/3890/">3,890</a>
+<a class="next page-numbers" href="https://attackofthefanboy.com/page/2/">Next &raquo;</a>
+</div>
+</div>
+</section>
+<div style="display: none;" id="nxsFavNotice"><div id="nxsFavNoticeCnt">Posting....</div></div>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWJQJXJ"
+height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<link rel='stylesheet' id='all-css-0' href='https://attackofthefanboy.com/wp-content/plugins/social-networks-auto-poster-facebook-twitter-g/js-css/jquery.modal.min.css?m=1680487553g' type='text/css' media='all' />
+<script id='hurrytimer-js-extra'>
+var hurrytimer_ajax_object = {"ajax_url":"https:\/\/attackofthefanboy.com\/wp-admin\/admin-ajax.php","ajax_nonce":"30d6729ea4","disable_actions":"","methods":{"COOKIE":1,"IP":2,"USER_SESSION":3},"actionsOptions":{"none":1,"hide":2,"redirect":3,"stockStatus":4,"hideAddToCartButton":5,"displayMessage":6,"expire_coupon":7},"restartOptions":{"none":1,"immediately":2,"afterReload":3,"after_duration":4},"COOKIEPATH":"\/","COOKIE_DOMAIN":"","redirect_no_back":"1","expire_coupon_message":"","invalid_checkout_coupon_message":""};
+</script>
+<script type="text/javascript" src="https://attackofthefanboy.com/_static/??-eJyVzEEOQDAQQNEL0SFCWIizSE1o6QydacTt2dmy/cn7cO65ZVIkhX1LsyOBJcV4qQsYYRRBFfAClnl1aIIj4yWDr8wfCeNlLCfSiU/6PXjjw4bQl03bVWVdF42/AdokRyM="></script><script defer src='https://stats.wp.com/e-202329.js' id='jetpack-stats-js'></script>
+<script id='jetpack-stats-js-after'>
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'210960377',post:'0',tz:'-5',srv:'attackofthefanboy.com',hp:'vip',j:'1:12.3'} ]);
+_stq.push([ "clickTrackerInit", "210960377", "0" ]);
+</script>
+<script type="text/javascript" src="https://attackofthefanboy.com/wp-content/plugins/social-networks-auto-poster-facebook-twitter-g/js-css/jquery.modal.min.js?m=1680487553g"></script>
+<footer style="padding-top:20px;">
+<div class="container-foot">
+<div class="footer-nav" style="border-radius:6px;margin-top:30px;display:flex;flex-direction: column;justify-content:center;align-items:center;align-content:center;">
+<div class="footer-nav-row" style="flex-direction:row;width:100%;align-items:center;">
+<a href="https://attackofthefanboy.com/">Home</a>
+<a href="https://gamurs.group/privacy-policy/">Privacy Policy</a>
+<a href="https://gamurs.group/terms/">Terms of Use</a>
+<a href="https://attackofthefanboy.com/contact/">Contact Us</a>
+<a href="https://attackofthefanboy.com/about/">About</a>
+<a href="https://attackofthefanboy.com/sitemap/">Sitemap</a>
+</div>
+<div class="footer-nav-row" style="flex-direction:row;width:100%;align-items:center;">
+<a href="https://attackofthefanboy.com/corrections-policy">Corrections Policy</a>
+<a href="https://attackofthefanboy.com/ethics-policy">Ethics Policy</a>
+<a href="https://attackofthefanboy.com/fact-checking-policy/">Fact-Checking Policy</a>
+<a href="https://attackofthefanboy.com/ownership-policy/">Ownership Policy</a>
+</div>
+</div></div>
+<div class="footer-network" style="min-height:100px;">
+<div class="container footer-social" style="padding-top:30px;">
+<a class="facebook" href="https://facebook.com/attackofthefanboy/"><i class="fa fa-facebook-official"></i></a>
+<a class="twitter" href="https://twitter.com/FanboyAttack"><i class="fa fa-twitter-square"></i></a>
+<a class="youtube" href="https://youtube.com/user/FanboyAttack/"><i class="fa fa-youtube-square"></i></a>
+<a class="twitch" href="https://www.twitch.tv/aotf"><i class="fa fa-twitch"></i></a>
+</div></div>
+<div class="container-foot">
+<div class="footer-nav" style="line-height:1.8em;margin-left:20px;margin-right:20px;padding-bottom:20px;">
+Video Game News, Reviews, Guides & More | Attack of the Fanboy | © 2022 Attack of the Fanboy All Rights Reserved
+</div>
+</div>
+</footer>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-083JRJ452V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-083JRJ452V');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7185627-14', 'auto');
+  ga('set', 'dimension1', 'Shawn Robinson');
+  ga('set', 'dimension2', '');	
+  ga('set', 'dimension3', '');	
+  ga('set', 'dimension4', '2023-07-17T10:59:37-05:00');
+  ga('send', 'pageview');     
+</script>
+<script src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script type='text/javascript'>
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement('script');
+    mf.type = 'text/javascript'; mf.defer = true;
+    mf.src = '//cdn.mouseflow.com/projects/9fdff291-14a3-421d-890b-cc13c13913d5.js';
+    document.getElementsByTagName('head')[0].appendChild(mf);
+  })();
+</script>
+<script type='text/javascript'>
+//<![CDATA[ 
+function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+//]]> 
+</script>
+<script type='text/javascript'>
+//<![CDATA[ 
+function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("https://attackofthefanboy.com/wp-content/themes/Fanboy/core-home.css");
+//]]> 
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+          $(document).ready(function () {
+    $('.slideout-menu-toggle').on('click', function(event){
+    	event.preventDefault();
+    	var slideoutMenu = $('.slideout-menu');
+    	var slideoutMenuWidth = $('.slideout-menu').width();
+    	slideoutMenu.toggleClass("open");
+    	if (slideoutMenu.hasClass("open")) {
+	    	slideoutMenu.animate({
+		    	left: "0px"
+	    	});	
+    	} else {
+	    	slideoutMenu.animate({
+		    	left: -slideoutMenuWidth
+	    	}, 300);	
+    	}
+    });
+});
+        });
+    </script>
+<script>
+$(document).ready(function(){
+    // Add Active Class
+    $(".search-icon").click(function(){
+        $(".search-screen").addClass("active");
+    });
+
+    // Remove Active Class
+    $(".close-icon").click(function(){
+        $(".search-screen").removeClass("active");
+    });
+});
+</script>
+<script>$(document).ready(function () {
+	$('#close-btn').click(function () {
+		$('#search-overlay').fadeOut();
+		$('#search-btn').show();
+	});
+	$('#search-btn').click(function () {
+		$(this).hide();
+		$('#search-overlay').fadeIn();
+	});
+});</script>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+});
+</script>
+</body>
+</html>
